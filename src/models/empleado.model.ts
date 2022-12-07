@@ -29,6 +29,12 @@ export class Empleado extends Entity {
   })
   disponible: boolean;
 
+  @property({
+    type: 'string',
+    required: true,
+  })
+  nombre: string;
+
   @belongsTo(() => Cargo)
   cargoId: string;
 

@@ -1,15 +1,4 @@
 
-> backend_vacaciones@0.0.1 preopenapi-spec
-> npm run build
-
-
-> backend_vacaciones@0.0.1 build
-> lb-tsc
-
-
-> backend_vacaciones@0.0.1 openapi-spec
-> node ./dist/openapi-spec
-
 {
   "openapi": "3.0.0",
   "info": {
