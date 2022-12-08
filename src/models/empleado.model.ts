@@ -17,11 +17,6 @@ export class Empleado extends Entity {
   })
   fechaIngreso: string;
 
-  @property({
-    type: 'string',
-    required: true,
-  })
-  cargo_id: string;
 
   @property({
     type: 'boolean',
